@@ -1,0 +1,12 @@
+prefix=d:/ai.projects/mximoph/mximoph-knowledge-ai/ncnenv/Library
+exec_prefix=d:/ai.projects/mximoph/mximoph-knowledge-ai/ncnenv/Library
+libdir=d:/ai.projects/mximoph/mximoph-knowledge-ai/ncnenv/Library/lib
+includedir=d:/ai.projects/mximoph/mximoph-knowledge-ai/ncnenv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
